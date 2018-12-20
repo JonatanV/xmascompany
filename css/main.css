@@ -48,17 +48,17 @@ nav>ul {
     width:100%;
 
 }
-    nav>ul>li{
+nav>ul>li{
     float: left;
 }
-    nav>ul>li a {
+nav>ul>li a {
     display: block;
-    color: #ce0b0b;
+    color: #dde3e9;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-    h2>img,section>img,li>img {
+h2>img,section>img,li>img {
     filter:invert(100%);
 }
 h2{
@@ -68,7 +68,7 @@ h2{
 }
 nav>ul>li a:hover {
         background-color: black;
-        color: #dde3e9;
+        color: #ce0b0b;
 }
 section >ul{
     color: #dde3e9;
@@ -78,19 +78,19 @@ section>ul>li {
     color:#dde3e9; 
     font-family: 'Merriweather', serif;
 }
-    li>img{
+li>img{
     float: right;
     padding-right: 2%;
     height: 150px;
     width: 150px;
     }
-    section>ul>li a{
+section>ul>li a{
     color: #063607;
     text-decoration: none;
     font-weight: bold;
     font-family: 'Merriweather', serif;
 }
-    p,section>ul{
+p,section>ul{
     font-size: 2em;
 }
 #myBtn {
@@ -102,7 +102,7 @@ section>ul>li {
     border: none;
     outline: none;
     background-color: black; 
-    color: #ce0b0b; 
+    color: #dde3e9; 
     cursor: pointer;
     padding: 15px 25px; 
     border-radius: 10px; 
@@ -112,22 +112,37 @@ section>ul>li {
 #myBtn:hover {
     background-color: #000000;
     color: #dde3e9; 
-    font-family: 'Merriweather', serif;
-    font-size: 20px;
 }
 div>img{
     float:right;
     filter: invert(100%);
 }
-#sida3,#sida3>p{
+#sida3{
     background-color: #dde3e9;
-    width: 90%;
+    width: 100%;
     color: #063607;
-
+}
+#sida3>p{
+    background-color: #dde3e9;
+    color: #063607;
+    padding-top: 20px; 
+    width: 90%;
+    margin: 0 auto
 }
 #sida3>p>img{
     height: 250px;
     width: 250px;
     filter:invert(0%);
+}
+
+#sida2>h1{
+    padding-top: 20px; 
+    width: 90%;
+    margin: 0 auto    
+}
+#sida2>ul{
+    width: 90%;
+    margin: 0 auto;    
+    list-style-type: none;
 }
 
